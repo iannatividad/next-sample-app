@@ -19,7 +19,8 @@
       "executor": "@nrwl/next:server",
       "options": {
         "buildTarget": "app-one:build",
-        "dev": true
+        "dev": true,
+        "proxyConfig": "apps/app-one/proxy.conf.json"
       },
       "configurations": {
         "production": {
